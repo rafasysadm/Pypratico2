@@ -226,7 +226,7 @@ dct = xmltodict.parse(xml)
 
 #for k in dct.keys():
 #    print(k)
-#X
+###
 for key, value in dct.items():
     print(key)
     for cd in value['CD']:
